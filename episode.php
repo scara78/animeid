@@ -28,28 +28,7 @@ for ($x = 1; $x <= $animesingle->total_episode; $x++) {
 
 </div>
 <?php endforeach ?>
-<div class="homepage2">
-<div class="post_content">
-<div class="judul_post titles_post row_index_2">
-<h1 class="font-weight-bold">judul</h1>
-</div>
-<div class="taxonomy row_index_2">
-<span class="text-muted taxonomy-title"><i class="fas fa-calendar-alt"></i> 2018-09-11</span> <span class="text-muted categoris"><i class="fas fa-folder"></i> <a href="/category/dorama">Dorama</a></span>
-</div>
-<div class="sinopsis_title_post titles_post row_index_2">
-<h4 class="font-weight-bold">Sinopsis</h4>
-</div>
-<div class="sinopsis_post row_index_2">
-<div class="text-justify"><p>sad
-</p></div>
-</div>
-<div class="genres_taxonomy row_index_2">
-<a href="/tag/life"><span class="genres">Life</span></a> <a href="/tag/drama"><span class="genres">Drama</span></a> <a href="/tag/medical"><span class="genres">Medical</span></a> <a href="/tag/manga"><span class="genres">Manga</span></a> </div>
-<div class="row_index_2">
-faf
-</div>
-</div>
-</div>
+
 <div class="homepage">
 <div class="login_in_post">
 <div id="disqus_thread"></div>

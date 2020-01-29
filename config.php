@@ -1,6 +1,6 @@
 <?php
 $web = "DwiKurniaSurya.Net"; 
-$lastupdate = "https://api.gdriveplayer.us/v1/anime/newest";
+$lastupdate = "https://api.gdriveplayer.us/v1/animes/newest";
 $arrContextOptions=array(
     "ssl"=>array(
           "verify_peer"=>false,

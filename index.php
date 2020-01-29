@@ -11,7 +11,7 @@
 <form id='search' name="search" style="margin: 0;" action="search.php" method="GET">
 <div class="row row_index">
 <div class="filter-query-form-group col-md-10 col-12">
-<input class='form-control filter-query-form-control-eps text-center' TYPE='text' id='q' name='q' placeholder='Search (e.g One Piece)' />
+<input class='form-control filter-query-form-control-eps text-center' TYPE='text' placeholder='Search (e.g One Piece)' />
 </div>
 <div class="filter-submit-form-group col-md-2 col-12">
 <button type='submit' id='search_now' class='btn btn-light filter-refresh-form-control' style="width: 100%"><i class="fas fa-search"></i></button>

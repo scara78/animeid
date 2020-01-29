@@ -7,7 +7,7 @@
 <div class="col-lg-8 col-12">
 	<div class="homepage2">
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://database.gdriveplayer.us//player.php?type=anime_indo&id=<?= $id; ?>&episode=<?= $eps; ?>" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://database.gdriveplayer.us//player.php?type=anime&id=<?= $id; ?>&episode=<?= $eps; ?>" allowfullscreen></iframe>
 </div>
 	</div>
 <div class="homepage2" style="padding: 10px; border-radius: 10px;">

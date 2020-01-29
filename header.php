@@ -16,7 +16,7 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </head>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:#fff!important;">
 <div class="container">
 <a class="navbar-brand" href="/">
 <img src="./logo.png" width="150px">

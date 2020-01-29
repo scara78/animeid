@@ -13,7 +13,7 @@
 <div class="homepage2" style="padding: 10px; border-radius: 10px;">
 <div class="input-group">
   <div class="input-group-prepend">
-    <label class="input-group-text" for="inputGroupSelect01">Pilih Episodes</label>
+    <label class="input-group-text" for="inputGroupSelect01">Episodes</label>
   </div>
   <select  style="margin-right: 10px;" class="custom-select" id="inputGroupSelect01" name="forma" onchange="location = this.value;">
     <option selected>Episode <?= $eps ?></option>
@@ -23,7 +23,7 @@ for ($x = 1; $x <= $animesingle->total_episode; $x++) {
 } 
 ?>
   </select>
-  <button style="float: right;" type="button" class="btn btn-dark">Mode Gelap</button>
+  <button style="float: right;" type="button" class="btn btn-dark">Dark Mode</button>
 </div>
 
 </div>

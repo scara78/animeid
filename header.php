@@ -1,4 +1,5 @@
 <head>
+  <base href="https://animeidme.herokuapp.com/">
 <title>AnimeID - Watch Thousands of Anime Episodes For Free</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">

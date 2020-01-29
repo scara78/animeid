@@ -26,7 +26,7 @@ $("#search").bind('submit',function() {
 <form id='search' name="search" style="margin: 0;" action="">
 <div class="row row_index">
 <div class="filter-query-form-group col-md-10 col-12">
-<input class='form-control filter-query-form-control-eps text-center' TYPE='text' id='q' name='q' placeholder='Cari (Contoh: Doctor 01 atau Doctor)' />
+<input class='form-control filter-query-form-control-eps text-center' TYPE='text' id='q' name='q' placeholder='Search (e.g One Piece)' />
 </div>
 <div class="filter-submit-form-group col-md-2 col-12">
 <button type='submit' id='search_now' class='btn btn-light filter-refresh-form-control' style="width: 100%"><i class="fas fa-search"></i></button>
@@ -38,8 +38,8 @@ $("#search").bind('submit',function() {
 <?php foreach ($dramas as $drama) : ?>
 <div class="col-md-3 col-12 text-center popular_column">
 <div class="popular_this_week_2" style="margin-bottom: 10px;">
-<a href="https://anikyou.com/<?php echo slugify($drama->title); ?>-eps-<?php echo $drama->total_episode; ?>-sub-indo/<?php echo $drama->id; ?>">
-<img src="<?php echo $drama->poster; ?>" width="100%" height="250px" alt="<?php echo $drama->title; ?> Subtitle Indonesia">
+<a href="https://animeidme.herokuapp.com/<?php echo slugify($drama->title); ?>-eps-<?php echo $drama->total_episode; ?>-eng-subbed/<?php echo $drama->id; ?>">
+<img src="<?php echo $drama->poster; ?>" width="100%" height="250px" alt="<?php echo $drama->title; ?> English Subbed">
 <div class="latest_category_dlm_cat"><?php echo $drama->type; ?></div>
 <div class="status_dlm_cat"><?php echo $drama->status; ?></div>
 <div class="latest_episodes_dlm_cat">8.76</div>
@@ -47,7 +47,7 @@ $("#search").bind('submit',function() {
 <h6 class="popular_this_week_items"><?php echo $drama->title; ?></h6>
 <div class="hoverother">
 <span class="popular_this_week_kualitas">Stream</span>
-<span class="popular_this_week_kualitas">Indonesia</span>
+<span class="popular_this_week_kualitas">Eng Subbed</span>
 </div>
 </div>
 </a>
@@ -56,7 +56,7 @@ $("#search").bind('submit',function() {
 <?php endforeach ?>
 
 <div id="remove_row" class="col-12 popular_column">
-<button data-vid="651" id="btn_more_data" class="show_more_button_in_view_1 btn">Lihat Lagi ▼</button>
+<button data-vid="651" id="btn_more_data" class="show_more_button_in_view_1 btn">More</button>
 </div>
 </div>
 <script>  

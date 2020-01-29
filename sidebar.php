@@ -69,7 +69,7 @@
 </ul>
 </div>
 <div class="title-bottom">
-<span class="font-weight-bold">Ongoing Anime</span>
+<span class="font-weight-bold">Top 5 Anime</span>
 </div>
 </div>
 </div>

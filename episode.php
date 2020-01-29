@@ -1,6 +1,6 @@
 <?php include 'animecon.php';?>
 <?php foreach ($animesingles as $animesingle) : ?>
-<title><?php echo $animesingle->title; ?> Episode <?php echo $eps; ?> Subtitle Indonesia | AnimeID</title>
+<title><?php echo $animesingle->title; ?> Episode <?php echo $eps; ?> English Subbed | AnimeID</title>
 <?php include 'header.php';?>
 <div class="container">
 <div class="row">
@@ -19,7 +19,7 @@
     <option selected>Episode <?= $eps ?></option>
 <?php 
 for ($x = 1; $x <= $animesingle->total_episode; $x++) {
-    echo "<option value='http://animeid.me/episode.php?id=$id&eps=$x'>Episode $x";
+    echo "<option value='https://animeidme.herokuapp.com/episode.php?id=$id&eps=$x'>Episode $x";
 } 
 ?>
   </select>

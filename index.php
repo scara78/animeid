@@ -42,7 +42,7 @@ $("#search").bind('submit',function() {
 <img src="<?php echo $drama->poster; ?>" width="100%" height="250px" alt="<?php echo $drama->title; ?> English Subbed">
 <div class="latest_category_dlm_cat"><?php echo $drama->type; ?></div>
 <div class="status_dlm_cat"><?php echo $drama->status; ?></div>
-<div class="latest_episodes_dlm_cat">8.76</div>
+<div class="latest_episodes_dlm_cat"><?php echo $drama->total_episode; ?></div>
 <div class="topcontenttitle text-center">
 <h6 class="popular_this_week_items"><?php echo $drama->title; ?></h6>
 <div class="hoverother">

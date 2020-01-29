@@ -29,16 +29,16 @@
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 <ul class="navbar-nav mr-auto">
 <li class="nav-item">
-<a class="nav-link" href="/category/dorama/">Genres</a>
+<a class="nav-link" href="#">Genres</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="/category/movie/">Series</a>
+<a class="nav-link" href="#">Series</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="/jy-adm/index.php#beli">Movie</a>
+<a class="nav-link" href="#">Movie</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="/contact.php">Live Action</a>
+<a class="nav-link" href="#">Live Action</a>
 </li>
 <li class="nav-item dropdown">
 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

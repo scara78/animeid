@@ -4,17 +4,17 @@
 <div class="row">
 <div class="text-center col-lg-6 col-12">
 <div class="social-links">
-<a href="https://www.facebook.com/dramaid/" target="_blank" rel="nofollow noopener">
+<a href="https://www.facebook.com/#/" target="_blank" rel="nofollow noopener">
 <i class="fab fa-facebook-square fa-2x text-dark"></i></a>
-<a href="https://twitter.com/dramaid" target="_blank" rel="nofollow noopener">
+<a href="https://twitter.com/#" target="_blank" rel="nofollow noopener">
 <i class="fab fa-twitter-square fa-2x text-dark"></i></a>
 </div>
 </div>
 <div class="text-center col-lg-6 col-12">
-<div class="bottom-menu">Dramaid.me</div>
+<div class="bottom-menu">Animeid.me</div>
 </div>
 <div class="text-center col-lg-12">
-Copyright © Dramaid 2019 </div>
+Copyright © Animeid 2020 </div>
 </div>
 </footer>
 </div> </div>

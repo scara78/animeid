@@ -7,23 +7,8 @@
 <img class="loading_images" src="jy-adm/uploads/ajax-loader.gif" />
 </div>
 <div id="main_content">
-<script type="text/javascript">
-$(function() {
-$("#search").bind('submit',function() {
-  $('#main_content').hide();
-  $("#loading-image").show();
-  var value1 = $('#q').val();
-   $.post('/cari/cari_index.php',{keywordc:value1}, function(data){
-   $("#main_content").html(data);
-   $("#loading-image").hide();
-   $('#main_content').fadeIn("slow");
-   });
-   return false;
-});
-});
-</script>
 <div class="Search_form border_index">
-<form id='search' name="search" style="margin: 0;" action="">
+<form id='search' name="search" style="margin: 0;" action="search.php" method="GET">
 <div class="row row_index">
 <div class="filter-query-form-group col-md-10 col-12">
 <input class='form-control filter-query-form-control-eps text-center' TYPE='text' id='q' name='q' placeholder='Search (e.g One Piece)' />

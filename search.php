@@ -40,6 +40,7 @@ function slugify($text)
   return $text;
 }
  ?>
+<title><?= $search; ?> | AnimeID</title>
 <?php include 'header.php';?>
 <div class="container">
 <div class="row">
@@ -64,7 +65,7 @@ function slugify($text)
 <?php foreach ($dramas as $drama) : ?>
 <div class="col-md-3 col-12 text-center popular_column">
 <div class="popular_this_week_2" style="margin-bottom: 10px;">
-<a href="https://animeidme.herokuapp.com/<?php echo slugify($drama->title); ?>-eps-<?php echo $drama->total_episode; ?>-eng-subbed/<?php echo $drama->id; ?>">
+<a href="https://animeidme.herokuapp.com/<?php echo slugify($drama->title); ?>/<?php echo $drama->id; ?>/<?php echo $drama->total_episode; ?>">
 <img src="<?php echo $drama->poster; ?>" width="100%" height="250px" alt="<?php echo $drama->title; ?> English Subbed">
 <div class="latest_category_dlm_cat"><?php echo $drama->type; ?></div>
 <div class="status_dlm_cat"><?php echo $drama->status; ?></div>
